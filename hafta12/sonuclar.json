@@ -1,0 +1,66 @@
+{
+  "gorulen_token": 196608000,
+  "max_steps": 3000,
+  "batch": 65536,
+  "sure_dk": 18.95533026854197,
+  "ortanca_ms": 358.29854011535645,
+  "token_sn": 182908.9227628454,
+  "son_val": 3.987754106521606,
+  "son_train20": 4.012301594018936,
+  "hellaswag_kendi": [
+    {
+      "ad": "kendi model 750",
+      "n": 10042,
+      "dogru_toplam": 2599,
+      "dogru_ort": 2416,
+      "acc": 0.2588129854610635,
+      "acc_norm": 0.24058952399920336,
+      "sure_sn": 61.42253136634827,
+      "adim": 750
+    },
+    {
+      "ad": "kendi model 1500",
+      "n": 10042,
+      "dogru_toplam": 2620,
+      "dogru_ort": 2541,
+      "acc": 0.26090420235012945,
+      "acc_norm": 0.2530372435769767,
+      "sure_sn": 61.185959577560425,
+      "adim": 1500
+    },
+    {
+      "ad": "kendi model 2250",
+      "n": 10042,
+      "dogru_toplam": 2613,
+      "dogru_ort": 2503,
+      "acc": 0.26020713005377416,
+      "acc_norm": 0.2492531368253336,
+      "sure_sn": 63.2177894115448,
+      "adim": 2250
+    },
+    {
+      "ad": "kendi model 3000",
+      "n": 10042,
+      "dogru_toplam": 2594,
+      "dogru_ort": 2535,
+      "acc": 0.2583150766779526,
+      "acc_norm": 0.2524397530372436,
+      "sure_sn": 62.17510008811951,
+      "adim": 3000
+    }
+  ],
+  "hellaswag_openai": {
+    "ad": "openai gpt2",
+    "n": 10042,
+    "dogru_toplam": 2872,
+    "dogru_ort": 2967,
+    "acc": 0.28599880501892055,
+    "acc_norm": 0.2954590718980283,
+    "sure_sn": 63.565366983413696
+  },
+  "openai_metin": [
+    "Hello, I'm a language model, and I like to be able to describe ideas better than I can tell anyone else. And yes, there's a reason for that, but it is because languages are made up of hundreds of thousands of",
+    "The Earth orbits the Sun, where the sun takes about 8\u00b0 between the Earth's edge and the Sun. Astronomers believe the Earth's poles are the closest points in the universe to the Sun, though we don't",
+    "In mathematics, a prime number is a number (or, better yet, binary number) that can be multiplied and decremented by another integer such as n or n^2 . The basic type of a prime number is N : ("
+  ]
+}
